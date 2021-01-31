@@ -1,0 +1,28 @@
+.main{
+    max-width: 300px;
+    margin: auto;
+    font-family: Garamond, serif;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 15px 5px 15px;
+}
+.name{
+    font-size: 45px;
+    color: lightcoral;
+    padding-bottom: 10px;
+}
+.imag{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 80%; 
+    padding:1px;
+    border:1px solid #021a40;
+}
+.desc{
+    color:cadetblue;
+    text-align: justify;
+    padding-top: 10px;
+}
+.g-url{
+    border-radius: 50%;
+    width: 15%;
+}

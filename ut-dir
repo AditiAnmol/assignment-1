@@ -1,0 +1,31 @@
+"use strict";
+
+// const element = React.createElement('div',{ title: 'Outer div' },
+//     React.createElement('h1', { className: 'foo'}, 'Hello World!')
+// );
+var continent = ['Africa', 'America', 'Australia', 'Asia', 'Europe'];
+var helloContinents = Array.from(continent, function (c) {
+  return "Hello to everyone living in ".concat(c, "!");
+});
+var message = helloContinents.join(' ');
+var element = /*#__PURE__*/React.createElement("div", {
+  title: "Outer div"
+}, /*#__PURE__*/React.createElement("h1", {
+  className: "foo"
+}, message));
+ReactDOM.render(element, document.getElementById('content'));
+"use strict"; // const element = React.createElement('div',{ title: 'Outer div' },
+//     React.createElement('h1', { className: 'foo'}, 'Hello World!')
+// );
+
+var continent = ['Africa', 'America', 'Australia', 'Asia', 'Europe'];
+var helloContinents = Array.from(continent, function (c) {
+  return "Hello ".concat(c, "!");
+});
+var message = helloContinents.join(' ');
+var element = /*#__PURE__*/React.createElement("div", {
+  title: "Outer div"
+}, /*#__PURE__*/React.createElement("h1", {
+  className: "foo"
+}, message));
+ReactDOM.render(element, document.getElementById('content'));
